@@ -1,0 +1,268 @@
+header{
+    height: 75px;
+    border: 0px solid #c9b2e6;
+    padding: 0px;
+    position: relative;
+}
+
+p[id=home]{
+color:white;
+font-size:25px;
+font-family:verdana;
+    cursor: default;
+    position: relative;
+    top: 50%;
+    margin: -2.5px 10px;
+    width: 750px;
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+    left: 100%;
+    top: 13px;
+    margin: 0px -200px;
+    width: 200px;
+}
+
+.dropdownbutton{
+    position: relative;
+    background-color: transparent;
+    border: 0px;
+    bottom: 5px;
+    left: 100%;
+    padding: 5px 2px;
+    margin: 0px -50px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dropdownbutton:hover, .dropdownbutton:focus{
+    background-color: #a8a4cc;
+}
+
+#bar {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+#bar2 {
+    width: 35px;
+    height: 6px;
+    background-color: transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color: #d2cfd8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    height: fit-content;
+}
+
+.dropdown-content a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: timesnewroman;
+}
+.show {display:block;}
+.dropdown-content a:hover {background-color: #d9d6e0;}
+
+
+
+@media only screen and (max-width: 980px) {
+
+header{
+    height: 7%;
+    border: 0px solid #c9b2e6;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+#home{
+    cursor: default;
+    position: relative;
+    top: 50%;
+    margin: -2.5px 10px;
+    width: 100%;
+    font-size: 25px;
+    color:white;
+    font-family:verdana;
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+    left: 100%;
+    top: 33px;
+    margin: 0px 0px 0px -40%;
+    width: 40%;
+}
+
+.dropdownbutton{
+    position: relative;
+    background-color: transparent;
+    border: 0px;
+    bottom: 8px;
+    left: 100%;
+    padding: 5px 2px;
+    margin: 0px -60px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dropdownbutton:hover, .dropdownbutton:focus{
+    background-color: #a8a4cc;
+}
+
+#bar {
+    width: 50px;
+    height: 7px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+#bar2 {
+    width: 50px;
+    height: 8px;
+    background-color: transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: #d2cfd8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    height: fit-content;
+}
+
+.dropdown-content a
+{
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+    display: block;
+    font-family: timesnewroman;
+    font-size: 30px;
+}
+.show {display:block;}
+.dropdown-content a:hover {background-color: #d9d6e0;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+header{
+    height: 12%;
+    border: 0px solid #c9b2e6;
+    padding: 0px;
+    position: relative;
+}
+
+p[id=home]{
+color:white;
+font-size:20px;
+font-family:verdana;
+    cursor: default;
+    position: relative;
+    top: 50%;
+    margin: -2.5px 10px;
+    width: 750px;
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+    left: 100%;
+    top: 13px;
+    margin: 0px -200px;
+    width: 200px;
+}
+
+.dropdownbutton{
+    position: relative;
+    background-color: transparent;
+    border: 0px;
+    bottom: 20px;
+    left: 100%;
+    padding: 5px 2px;
+    margin: 0px -50px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dropdownbutton:hover, .dropdownbutton:focus{
+    background-color: #a8a4cc;
+}
+
+#bar {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+#bar2 {
+    width: 35px;
+    height: 6px;
+    background-color: transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color: #d2cfd8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    height: fit-content;
+}
+
+.dropdown-content a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: timesnewroman;
+}
+.show {display:block;}
+.dropdown-content a:hover {background-color: #d9d6e0;}
+
+}

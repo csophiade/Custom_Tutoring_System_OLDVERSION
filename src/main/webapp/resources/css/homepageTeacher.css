@@ -1,0 +1,155 @@
+
+#homeinfo{
+    width: 100%;
+    position: relative;
+}
+#todayclmn{
+    position relative;
+    float: left;
+    width: 59%;
+    padding: 2px;
+    height: 100%;
+}
+
+#today{
+    position: relative;
+    left: 15px;
+}
+
+#bookingreqbutton{
+    position: relative;
+    left: 15px;
+    top: -10px;
+    color: white;
+    background-color: #FE82AA;
+    background: linear-gradient(90deg, rgba(250,125,165,1) 1%, rgb(255, 136, 169, 0.9) 100%);
+    height: 30px;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    padding: 5px 10px;
+
+}
+
+#bookingreqbutton:hover, #bookingreqbutton:focus {background-color:#EE729A }
+
+#tomorrowclmn{
+    position: relative;
+    float: right;
+    width: 40%;
+    padding: 2px;
+}
+table {
+    width: 100%;
+    border: none;
+}
+.lesson-box {
+    width: 90%;
+    margin: 10px auto;
+    background: rgb(214,209,247);
+    background: linear-gradient(90deg, #c9b9e6 3%, rgba(223,195,235,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    float: left;
+}
+
+.lesson-box h2 {
+     margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.lesson-box p {
+    margin: 10px 0;
+    color: white;
+}
+
+.text{
+    display:inline;
+    color: white;
+}
+
+
+@media only screen and (max-width: 980px) {
+    h1{
+    font-size: 40px;
+    }
+    h2{
+    font-size: 35px;
+    }
+    p{
+    font-size: 30px;
+    }
+    h3{
+    font-size: 30px;
+    }
+    #homeinfo{
+        width: 100%;
+        position: relative;
+    }
+    #todayclmn{
+        position relative;
+        float: left;
+        width: 59%;
+        padding: 2px;
+        height: auto;
+    }
+    #today{
+        position: relative;
+        left: 15px;
+    }
+    #bookingreqbutton{
+        position: relative;
+        left: 15px;
+        top: -10px;
+        color: white;
+        background: linear-gradient(90deg, rgba(250,125,165,1) 1%, rgb(255, 136, 169, 0.9) 100%);
+        border-radius: 7px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    #bookingreqbutton:hover, #bookingreqbutton:focus {background-color:#EE729A }
+
+    #tomorrowclmn{
+        position: relative;
+        float: right;
+        width: 40%;
+        padding: 2px;
+    }
+    table {
+        width: 100%;
+        border: none;
+    }
+    .lesson-box {
+        width: 90%;
+        margin: 20px auto;
+        background: rgb(214,209,247);
+        background: linear-gradient(90deg, #c9b9e6 3%, rgba(223,195,235,1) 100%);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #ccc;
+        float: left;
+    }
+
+    .lesson-box h2 {
+        margin: 0;
+        color: white;
+        text-align: center;
+    }
+
+    .lesson-box p {
+        margin: 10px 0;
+        color: white;
+    }
+
+    .text{
+        display:inline;
+        color: white;
+    }
+
+}
