@@ -31,9 +31,9 @@ A web-based lesson scheduler developed with Java Spring MVC, Maven, CSS, JavaScr
 
 1. Clone the repository:
    ```bash
-            git clone https://github.com/csophiade/Custom_Tutoring_System_OLDVERSION.git
+      git clone https://github.com/csophiade/Custom_Tutoring_System_OLDVERSION.git
 ### Install dependencies:    
-         mvn clean install
+      mvn clean install
 
 
 ### Run the application:
