@@ -38,7 +38,7 @@ A web-based lesson scheduler developed with Java Spring MVC, Maven, CSS, JavaScr
 
 ### Run the application:
       ```bash
-    mvn spring-boot:run
+      mvn spring-boot:run
 
 ### Future Plans 
 - Integrate payment systems for secure digital transactions.
