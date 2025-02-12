@@ -34,7 +34,7 @@ A web-based lesson scheduler developed with Java Spring MVC, Maven, CSS, JavaScr
    git clone https://github.com/your-username/lesson-scheduler.git
 ### Install dependencies:
 - mvn clean install
-###Run the application:
+### Run the application:
 - mvn spring-boot:run
 
 ### Future Plans 
